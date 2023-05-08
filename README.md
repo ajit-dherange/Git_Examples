@@ -1,2 +1,2 @@
 # Git_Examples
-Git Practice Examples for DevOps Engineer
+**Git Practice Examples for DevOps Engineer**
