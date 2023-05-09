@@ -2,7 +2,7 @@
 **Git Practice Examples for DevOps Engineer**
 
 Quick setup — if you’ve done this kind of thing before
-https://github.com/ajit2411/Test_Repo.git
+https://github.com/xxxxx/Test_Repo.git
 
 …or create a new repository on the command line
 ```
