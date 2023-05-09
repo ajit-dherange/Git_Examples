@@ -47,7 +47,7 @@ touch f2.txt
 git add .
 git commit -m "a"
 git remote add origin https://github.com/xxxxx/Git_Test.git
-git push -u origin main / master (**first time only**)
+git push -u origin main / master (first time only)
 touch f3.txt
 git status
 git add .
