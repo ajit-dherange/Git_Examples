@@ -14,11 +14,11 @@ https://github.com/xxxxx/Test_Repo.git
 
 **I. Create a new repository on the Github site:**
 
-Logon to https://github.com/ 
+1. Logon to https://github.com/ 
 
-Click on "+" sign at right corner and select New Repository
+2. Click on "+" sign at right corner and select "New Repository"
 
-Give Name to the new repository and click on "Create reposotory"
+3. Give Name to the new repository and click on "Create reposotory"
 
 
 **…or create a new repository on the command line:**
