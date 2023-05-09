@@ -5,11 +5,11 @@ Quick setup — if you’ve done this kind of thing before
 https://github.com/xxxxx/Test_Repo.git
 
 
-
 **Prerequisite:**
 
-Open URL https://github.com/ and click on Sign Up and create account
+1 Open URL https://github.com/ and click on Sign Up and create account
 
+2 Download Git from https://git-scm.com/download/win and install it
 
 
 **Create a new repository on the Github site:**
@@ -23,6 +23,8 @@ Give Name to the new repository and click on "Create reposotory"
 
 **…or create a new repository on the command line:**
 
+Create new folder Named "Git_Practice" and run git bash from the same folder 
+
 ```
   echo "# Test_Repo" >> README.md
   git init
@@ -34,6 +36,9 @@ Give Name to the new repository and click on "Create reposotory"
   ```
   
 **…or push an existing repository from the command line**
+
+Create new folder Named "Git_Practice" and run git bash from the same folder 
+
 ```
 git init
 git config --global user.name "xxxxx"
