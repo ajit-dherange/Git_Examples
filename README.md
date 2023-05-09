@@ -5,9 +5,11 @@ Quick setup — if you’ve done this kind of thing before
 https://github.com/xxxxx/Test_Repo.git
 
 
+
 **Prerequisite:**
 
 Open URL https://github.com/ and click on Sign Up and create account
+
 
 
 **Create a new repository on the Github site:**
