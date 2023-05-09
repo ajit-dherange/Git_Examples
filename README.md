@@ -12,7 +12,7 @@ https://github.com/xxxxx/Test_Repo.git
 2 Download Git from https://git-scm.com/download/win and install it
 
 
-**Create a new repository on the Github site:**
+**I. Create a new repository on the Github site:**
 
 Logon to https://github.com/ 
 
@@ -35,7 +35,7 @@ Create new folder Named "Git_Practice" and run git bash from the same folder
   git push -u origin main
   ```
   
-**…or push an existing repository from the command line**
+**II. …or push an existing repository from the command line**
 
 Create new folder Named "Git_Practice" and run git bash from the same folder 
 
