@@ -4,7 +4,22 @@
 Quick setup — if you’ve done this kind of thing before
 https://github.com/xxxxx/Test_Repo.git
 
-…or create a new repository on the command line
+**Prerequisite:**
+
+Open URL https://github.com/ and click on Sign Up and create account
+
+
+**Create a new repository on the Github site:**
+
+Logon to https://github.com/ 
+
+Click on "+" sign at right corner and select New Repository
+
+Give Name to the new repository and click on "Create reposotory"
+
+
+**…or create a new repository on the command line:**
+
 ```
   echo "# Test_Repo" >> README.md
   git init
@@ -15,7 +30,7 @@ https://github.com/xxxxx/Test_Repo.git
   git push -u origin main
   ```
   
-…or push an existing repository from the command line
+**…or push an existing repository from the command line**
 ```
 git init
 git config --global user.name "xxxxx"
