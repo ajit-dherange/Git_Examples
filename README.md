@@ -62,6 +62,7 @@ git push
 git config --global user.name "subrotoice"
 git config --global user.email "subroto.iu@gmail.com"
 ```
+
 ### Upload a new project
 ```
 git init // Basically 3 steps, 1. add, 2. Commit, 3. Push; https://prnt.sc/9_BUPJ6VX53L
@@ -70,6 +71,7 @@ git commit -m "first commit" // Save as a snapshot what remain in staged area
 git remote add origin https://github.com/subrotoice/ccn.git // ("origin Userdifine", origin=url.git, variable e value assign korar moto)
 git push -u origin master // push, origin user define name like variable contain url. (master default brunch name, you can create brunch like, https://prnt.sc/26pq9x2
 ```
+
 ### Work on an existing Project
 ```
 First you have to download project otherwise it will not work
@@ -80,6 +82,7 @@ git commit -m "committed message" For asingle file(git commit -m "committed mess
 git push -u origin master // First time pushing the branch or if you've made changes that conflict with the remote repository, you might need to use the '-u'
 git pull origin master // Change in github, it take effect in local reprository. 'Synchronization'
 ```
+
 ### Work on existing Project - Delete Some files and add new files | It is possible to rename reposiotry
 ```
 1. Delete files manually using mouse keyboard
@@ -92,34 +95,20 @@ git pull origin master // Change in github, it take effect in local reprository.
 3. git push -u origin master
 ```
 
-### Miscellaneous (Code WIth harry)
-```
-4 state of git: https://prnt.sc/oqsuL3IZ2wwt GitBash: https://prnt.sc/9_BUPJ6VX53L
-git add . // added files to stage area (stage area te gelei green hoy, unstated red)
-git commit // Store what content in last stage area
-git add a.html // Added to stage arae if we now again modify file not run git add a.html and commit then it will save content before second modification
-git status -s // short https://prnt.sc/2KdzsfURr71n
-git commit -a -m "add & commit" // Skeeping staging area. add+commit
-git checkout index.html // Back to last commit
-git checkout -f // Back to last commit all files
-git log -p -1 // See one commit; q to exit from git log
-git diff // stage area and working tree difference
-git diff --staged // stage and last commit difference
-git rm --cached waste.html // remove from stage area, but file reamain as untrack file
-git rm --f waste.html // Remove stage area + Delete File; --f to force removal
-```
 ### Commit: goto a commit number
 ```
 git checkout 736259f3b3fc9404ec7f8104dc3df98ab84e6b7e // commit number
 git log --oneline // in One Line; 
 git log // in details
 ```
+
 ### Remove top commit from github
 ```
 git reset --hard HEAD~1  // to remove top 2: git reset --hard HEAD~2
 git log --oneline
 git push -f
 ```
+
 ### Branch Practice--- master(default)
 ```
 git bracnh // show all branch and current branch in green; (for details) git branch -v / git branch -a
@@ -128,6 +117,7 @@ git checkout main // switch to main branch
 git merge main // first go to master using git checkout master then run merge command; it also brings all commit histor; Merge er pore abar commit kora lagte pare
 git branch -d newBranch // delete branch
 ```
+
 ### Remote(GitHub)
 ```
 git add remote <UrlName> <URL-www.>
@@ -137,6 +127,7 @@ git push -u third master // you can push without switching branch, ie. from mast
 git push -f second main // Forch Push
 git clone -b <branchName> <remote-repo-url> // Clone a Specic Branch from remote repo; ie. git clone -b main9 https://github.com/subrotoice/test9.git // Working, Here brunch name main9
 ```
+
 ### Basic Windows command like cd
 ```
 cd\ = back to root directory c drive does not metter where its current postion
@@ -154,11 +145,29 @@ cls = Clear Screen // "clear" in git bash
 git commit --amend -m "Modified Message"
 git push origin main --force
 ```
+
 ### Committed changes to a repository and then made additional changes that you want to include in that same commit
 ```
 git add <file(s)> // ie. git add README.md
 git commit --amend
 git push --force // Need to force push to the remote repository if you've already pushed the previous commit.
+```
+
+### Miscellaneous (Code WIth harry)
+```
+4 state of git: https://prnt.sc/oqsuL3IZ2wwt GitBash: https://prnt.sc/9_BUPJ6VX53L
+git add . // added files to stage area (stage area te gelei green hoy, unstated red)
+git commit // Store what content in last stage area
+git add a.html // Added to stage arae if we now again modify file not run git add a.html and commit then it will save content before second modification
+git status -s // short https://prnt.sc/2KdzsfURr71n
+git commit -a -m "add & commit" // Skeeping staging area. add+commit
+git checkout index.html // Back to last commit
+git checkout -f // Back to last commit all files
+git log -p -1 // See one commit; q to exit from git log
+git diff // stage area and working tree difference
+git diff --staged // stage and last commit difference
+git rm --cached waste.html // remove from stage area, but file reamain as untrack file
+git rm --f waste.html // Remove stage area + Delete File; --f to force removal
 ```
 
 
